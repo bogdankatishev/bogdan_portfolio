@@ -1,0 +1,27 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Yourfolio Theme"
+theme = "yourfolio"
+disableKinds = [
+  "RSS",
+  "taxonomy",
+  "taxonomyTerm"
+]
+googleAnalytics = "UA-XXXXX-Y"
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  weight = 1.0
+  url = "/about"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 2.0
+  url = "/contact"
+
+[params]
+env = "development"
+logoImage = "img/logo.png"
+logoImageAlt = "Yourfolio Theme brand logo"
